@@ -226,7 +226,12 @@ section:not(.hero) {
   position: relative;
   overflow: hidden;
 }
-
+.project-image img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+}
 .shop {
   background: linear-gradient(135deg, #173a55, #327a90);
 }
